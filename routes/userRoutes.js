@@ -17,3 +17,4 @@ router
   .delete(userController.deleteUser);
 
 module.exports = router;
+console.log('helllo');
