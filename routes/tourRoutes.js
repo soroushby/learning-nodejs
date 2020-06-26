@@ -9,7 +9,10 @@ router.param('id', (req, res, next, val) => {
   console.log(`tour id is : ${val}`);
   next();
 });
-router.get('/:id', tourController.getTour);
+router
+  .route('/:id')
+  .get(tourController.getTour)
+  .patch(tourController.updateTour);
 
 router
   .route('/')
