@@ -29,6 +29,6 @@ exports.updateUser = (req, res) => {
 exports.getUser = (req, res) => {
   res.status(500).json({
     status: 'error',
-    message: 'this message has not implemented',
+    message: 'this message has not implement',
   });
 };
