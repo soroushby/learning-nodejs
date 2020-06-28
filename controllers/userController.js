@@ -22,7 +22,7 @@ exports.deleteUser = (req, res) => {
 exports.updateUser = (req, res) => {
   res.status(500).json({
     status: 'error',
-    message: 'this message has not implemented',
+    message: 'this message has not implement',
   });
 };
 
